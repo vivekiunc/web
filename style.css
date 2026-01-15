@@ -1,0 +1,187 @@
+.container {
+    display: flex;
+    column-gap: 20px;
+    background-color: white;
+
+
+}
+
+
+.story {
+    max-width: 1100px;
+    margin: 80px auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+body {
+    font-family: 'Georgia', serif;
+}
+
+
+hr {
+    margin: 20px;
+}
+
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px
+}
+
+
+.story h2 {
+    text-align: center
+}
+
+
+h1 img {
+    width: 200px;
+    height: auto;
+}
+
+
+.homer {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.homer ul {
+    list-style-type: none;
+    width: 100%;
+    background-color: white;
+    /* Dark background for visibility */
+    padding: 10px 0;
+    margin: 10px;
+    color: white;
+    overflow: hidden;
+}
+
+
+.homer a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+
+
+
+
+}
+
+
+.homer li {
+    float: left;
+}
+
+
+.homer a:hover {
+    color: lightblue;
+}
+
+
+.text {
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 80px;
+
+
+}
+
+
+.contact {
+    text-align: center;
+}
+
+
+.pics img {
+    width: 320px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.story p {
+    font-size: x-large;
+}
+
+
+.current {
+    text-align: center;
+    font-size: large;
+}
+
+
+.extra {
+    display: flex;
+    column-gap: 20px;
+
+
+}
+
+
+.picture img {
+    max-width: 1500px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+.hobby_text h2 {
+    text-align: center;
+}
+
+
+.hobby_text p {
+    font-size: larger;
+}
+
+.klotsa,
+.skylab,
+.extern,
+.tennis,
+.edu,
+.skills,
+.awards {
+    background: white;
+    padding: 2.5rem;
+    margin: 2rem 0;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.klotsa:hover,
+.skylab:hover,
+.extern:hover,
+.tennis:hover,
+.edu:hover,
+.skills:hover,
+.awards:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+
+.klotsa,
+.skylab,
+.extern,
+.tennis,
+.edu,
+.skills,
+.awards {
+    text-align: center;
+}
